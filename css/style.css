@@ -778,16 +778,28 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 }
 
+@media (max-width: 800px) {
+	.price-table-wrapper .pricing-table {
+		width: 280px;
+		margin: 10px 5px;
+	}
+	.price-table-wrapper .featured-table {
+		top: 0;
+    height: 400px;
+    position: inherit;
+	}
+}
+
 @media (max-width: 768px) {
-		.price-table-wrapper .pricing-table {
-		width: 40%;
+	.price-table-wrapper .pricing-table {
+		width: 280px;
 		margin: 10px 5px;
 	}
 	.price-table-wrapper .featured-table {
 		top: 0;
     height: 400px;
     position: inherit;	
-   
+  }
 	#about, #services, #team {
 		padding: 40px 0 70px;
 	}
@@ -812,17 +824,5 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 	#contact {
 		padding: 40px 0;
-	}
-}
-
-@media (max-width: 800px) {
-	.price-table-wrapper .pricing-table {
-		width: 40%;
-		margin: 10px 5px;
-	}
-	.price-table-wrapper .featured-table {
-		top: 0;
-    height: 400px;
-    position: inherit;
 	}
 }

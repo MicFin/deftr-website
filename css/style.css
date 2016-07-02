@@ -175,7 +175,6 @@ ul, ol {
 	color: rgba(255,255,255,0.8);
 }
 #intro .intro-body .brand-heading {
-	text-transform: uppercase;
 	letter-spacing: 2px;
 	max-width: 300px;
 	margin: 0 auto;

@@ -10,7 +10,6 @@
 }
 
 /* Styling Next and Prev buttons */
-
 .owl-theme .owl-controls .owl-buttons div{
 	color: #FFF;
 	display: inline-block;
@@ -36,7 +35,6 @@
 }
 
 /* Styling Pagination*/
-
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
 	zoom: 1;
@@ -54,7 +52,6 @@
 	border-radius: 20px;
 	background: #869791;
 }
-
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
@@ -62,7 +59,6 @@
 }
 
 /* If PaginationNumbers is true */
-
 .owl-theme .owl-controls .owl-page span.owl-numbers{
 	height: auto;
 	width: auto;

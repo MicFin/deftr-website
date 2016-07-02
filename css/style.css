@@ -324,6 +324,125 @@ ul, ol {
 	border-color: #337ab7;
 }
 
+/* Pricing Section */
+#pricing {
+	padding: 100px 0;
+}
+#pricing .container {
+	width: 100%;
+}
+.price-table-wrapper {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+.price-table-wrapper .pricing-table {
+  display: inline-block;
+  height: 400px;
+  width: 180px;
+  margin:	0 5px;
+  padding: 0;
+  border: 1px solid #C8C8C8;
+  border-radius: 10px;
+  background: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__header {
+  padding: 20px;
+  font-size: 20px;
+  color: #f8f8f8;
+  background: #337ab7;
+  border-radius: 7px 7px 0px 0px;
+}
+.price-table-wrapper .pricing-table__price {
+  color: #337ab7;
+  padding: 20px;
+  margin: auto;
+  font-size: 40px;
+  font-weight: 500;
+}
+.price-table-wrapper .featured-table {
+  height: 420px;
+  position: relative;
+  top: -10px;
+}
+.price-table-wrapper .featured-table .pricing-table__button {
+  background-color: #ffa66b;
+}
+.price-table-wrapper .featured__header {
+  background: #ffa66b;
+}
+.pricing-table h3.price-smaller{
+  font-size: 28px;
+  line-height: 44px;
+}
+.price-table-wrapper .pricing-table__button {
+  display: block;
+  background: #337ab7;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:before {
+  position: absolute;
+  left: -20%;
+  top: -10%;
+  content: '';
+  width: 60%;
+  height: 220%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  background: white;
+  opacity: .3;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:after {
+  position: absolute;
+  content: '>';
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  padding: 15px;
+  padding-right: 40px;
+  color: white;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.price-table-wrapper .pricing-table__button:hover {
+  background: #666;
+}
+.price-table-wrapper .pricing-table__list {
+  padding: 20px;
+  color: #A0A0A0;
+}
+.price-table-wrapper .pricing-table__list li {
+  padding: 15px;
+  border-bottom: 1px solid #C8C8C8;
+}
+.price-table-wrapper .pricing-table__list li:last-child {
+  border: none;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button {
+  padding-left: 0;
+  padding-right: 35px;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:before {
+  top: -80%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 100%;
+}
+.price-table-wrapper .pricing-table:hover .pricing-table__button:after {
+  opacity: 1;
+  padding-right: 15px;
+}
+
 /* About Section */
 #about {
   padding: 75px 0;
@@ -654,14 +773,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	.cta-row {
 		padding-top: 40px;
 	}
-
-
 	#testimonials {
 		background: url(../img/testimonials-bg.jpg) no-repeat center center fixed;
 	}
 }
 
 @media (max-width: 768px) {
+		.price-table-wrapper .pricing-table {
+		width: 40%;
+		margin: 10px 5px;
+	}
+	.price-table-wrapper .featured-table {
+		top: 0;
+    height: 400px;
+    position: inherit;	
+   
 	#about, #services, #team {
 		padding: 40px 0 70px;
 	}
@@ -688,4 +814,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		padding: 40px 0;
 	}
 }
+
+@media (max-width: 800px) {
+	.price-table-wrapper .pricing-table {
+		width: 40%;
+		margin: 10px 5px;
+	}
+	.price-table-wrapper .featured-table {
+		top: 0;
+    height: 400px;
+    position: inherit;
+	}
 }

@@ -220,6 +220,12 @@ ul, ol {
 .play-btn i {
 	font-size: 80px;
 	color: rgba(255, 255, 255, 0.75);
+	border: 9px solid rgba(255, 255, 255, 0.75);
+	height: 140px;
+	width: 140px;
+	border-radius: 70px;
+	line-height: 120px;
+	padding-left: 15px;
 }
 .cta-row {
 	padding-top: 25px;

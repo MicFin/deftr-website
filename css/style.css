@@ -281,16 +281,56 @@ ul, ol {
 	top: 2px;
 	background: rgba(255, 166, 107, 0.4);
 }
+
+/* Services Section */
+#services {
+	padding: 100px 0;
+	border-top: 5px solid rgb(255, 166, 107);
+	background-color: #eeeeee;
+}
+#services .service {
+  background: #337ab7;
+  color: white;
+  margin: 20px 10px;
+  padding: 20px 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+#services h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	transition: all 0.5s;
+}
+.space {
+	margin-top: 40px;
+}
+#services i.fa {
+	font-size: 22px;
+	color: rgb(255, 166, 107);
+	transition: all 0.5s;
+}
+#services .service:hover {
+	background: #17568c;
+}
+#services .service:hover > i.fa {
+	color: rgb(255, 102, 0);
+}
+#services .section-title h2, #services .section-title p {
+	color: #444444;
+}
+#services .cta-row .btn-signup:hover {
+	background-color: transparent;
+	border-color: #337ab7;
+}
+
 /* About Section */
 #about {
-	padding: 75px 0;
-	color: #444;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f6f6+50,cccccc+100 */
-	background: rgb(246,246,246); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(246,246,246,1) 50%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(246,246,246,1) 50%, rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(246,246,246,1) 50%, rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
+  padding: 75px 0;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/about-bg.jpg);
+  background-attachment: fixed;
+  color: white;
+  font-weight: 700;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -331,43 +371,7 @@ ul, ol {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-/* Services Section */
-#services {
-	padding: 100px 0;
-	background: url(../img/services-bg.jpg);
-	background-attachment: fixed;
-	border-top: 5px solid rgb(255, 166, 107);
-}
-#services .service {
-	background: rgba(255,255,255,0.6);
-	margin: 20px 10px;
-	padding: 20px 10px;
-	border: 1px solid rgba(0,0,0,0.1);
-	border-radius: 4px;
-}
-#services H3 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #555;
-	transition: all 0.5s;
-}
-.space {
-	margin-top: 40px;
-}
-#services i.fa {
-	font-size: 22px;
-	color: #337ab7;
-	transition: all 0.5s;
-}
-#services .service:hover {
-	background: rgba(255,255,255,0.8);
-}
-#services .service:hover > i.fa, #services .service:hover > H3 {
-	color: rgb(255, 102, 0);
-}
-#services  .section-title h2, #services .section-title p {
-	color: white;
-}
+
 
 /* Team Section */
 #team {
@@ -651,9 +655,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		padding-top: 40px;
 	}
 
-	#services {
-		background: url(../img/services-bg.jpg) no-repeat center center fixed;
-	}
 
 	#testimonials {
 		background: url(../img/testimonials-bg.jpg) no-repeat center center fixed;

@@ -21,6 +21,10 @@ h3 {
 	font-size: 16px;
 	font-weight: 700;
 }
+.cta-row h3 {
+	margin-bottom: 25px;
+	font-size: 20px;
+}
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -505,6 +509,10 @@ img.img-thumbnail.team-img {
 	border-radius: 0;
 	background-color: #ddd;
 	transition: all 0.5s;
+}
+img.img-thumbnail.team-img.img-small {
+	width: 150px;
+	height: 150px;
 }
 #team .thumbnail {
 	background: transparent;

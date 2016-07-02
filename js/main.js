@@ -106,7 +106,7 @@ function main() {
   // jQuery Parallax
   function initParallax() {
     $('#intro').parallax("40%", 0.3, true);
-    $('#about').parallax("100%", 0.3, true);	
+    $('#pricing').parallax("100%", 0.3, true);	
     $('#testimonials').parallax("85%", 0.1, true);
   };
   initParallax();

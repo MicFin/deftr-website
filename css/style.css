@@ -327,6 +327,9 @@ ul, ol {
 /* Pricing Section */
 #pricing {
 	padding: 100px 0;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/about-bg.jpg);
+  background-attachment: fixed;
+  color: white;
 }
 #pricing .container {
 	width: 100%;
@@ -446,10 +449,7 @@ ul, ol {
 /* About Section */
 #about {
   padding: 75px 0;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/about-bg.jpg);
-  background-attachment: fixed;
-  color: white;
-  font-weight: 700;
+  color: #444444;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -495,7 +495,8 @@ ul, ol {
 /* Team Section */
 #team {
 	padding: 100px 0;
-	background: white;
+	background-color: #666666;
+	color: white;
 }
 img.img-thumbnail.team-img {
 	width: 200px;
@@ -511,7 +512,7 @@ img.img-thumbnail.team-img {
 }
 #team .thumbnail .caption {
 	padding: 9px;
-	color: #5a5a5a;
+	color: white;
 }
 
 

@@ -148,6 +148,7 @@ ul, ol {
   border: 1px solid white;
   border-radius: 3px;
   width: 80px;
+  text-align: center;
 }
 .navbar-custom .nav li a.login:hover {
 	background: white;

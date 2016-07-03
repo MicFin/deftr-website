@@ -85,6 +85,9 @@ ul, ol {
 	webkit-padding: 0;
 	moz-padding: 0;
 }
+.btn-default:active, .btn-default:focus {
+	border-color: white;
+}
 /* Navigation */
 .navbar-custom {
 	padding: 0;

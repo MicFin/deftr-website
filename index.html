@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
     <link rel="stylesheet" type="text/css" href="css/owl.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/sign-up.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
     <!-- <script type="text/javascript" src="js/modernizr.custom.js"></script> -->
@@ -69,11 +70,60 @@
             </div>
           </div>
           <div class="cta-row wow animated fadeInUp">
-            <a href="#about" class="btn btn-default btn-signup">Sign Up</a>
-            <a href="#about" class="btn btn-default btn-login">Log In</a>
+            <button class="btn btn-default btn-signup" data-toggle="modal" data-target="#sign">Sign Up</button>
+            <button class="btn btn-default btn-login" data-toggle="modal" data-target="#sign">Log In</button>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Sign-Up/Login Modal -->
+    <div id="sign" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li class="active"><a href="#signup" role="tab" data-toggle="tab">Sign up</a></li>
+                <li><a href="#login" role="tab" data-toggle="tab">Log in</a></li>
+              </ul>
+              <!-- Form Content -->
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="signup">
+                  <div class="box signup text-center">
+                    <a href="javascript:void(0)" class="btn btn-linkedin btn-block btn-lg"><i class="fa fa-linkedin-square"></i> Connect with LinkedIn</a>
+                    <a href="javascript:void(0)" class="btn btn-facebook btn-block btn-lg"><i class="fa fa-facebook"></i> Connect with Facebook</a>
+                    <p><small>We won't post without your permission. Promise.</small></p>
+                    <form id="signupform" action="#">
+                      <input type="text" class="form-control input-lg" placeholder="First name" />
+                      <input type="text" class="form-control input-lg" placeholder="Last name" />
+                      <input type="email" class="form-control input-lg" placeholder="Email address" />
+                      <input type="password" class="form-control input-lg" placeholder="Password" />
+                    </form>
+                    <a href="javascript:void(0)" class="btn btn-default btn-block btn-lg" onclick="$('form').slideDown();"><i class="fa fa-envelope-o"></i> Connect with Email</a>
+                    <br />
+                    <p class="text-center"><small>By signing up with <strong>{name}</strong>, you agree to our <a href="javascript:void(0)">Terms of Service</a> and <a href="javascript:void(0)">Privacy Policy</a>.</small></p>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="login">
+                  <div class="box signup text-center">
+                    <a href="javascript:void(0)" class="btn btn-linkedin btn-block btn-lg"><i class="fa fa-linkedin-square"></i> Connect with LinkedIn</a>
+                    <a href="javascript:void(0)" class="btn btn-facebook btn-block btn-lg"><i class="fa fa-facebook"></i> Connect with Facebook</a>
+                    <p></p>
+                    <form id="loginform" action="#">
+                      <input type="email" class="form-control input-lg" placeholder="Email address" />
+                      <input type="password" class="form-control input-lg" placeholder="Password" />
+                      <p class="text-left lostpassword"><small><a href="javascript:void(0)">Forgot password</a></small></p>
+                    </form>
+                    <a href="javascript:void(0)" class="btn btn-default btn-block btn-lg" onclick="$('form').slideDown();"><i class="fa fa-envelope-o"></i> Connect with Email</a>
+                  </div>
+                </div>
+              </div> <!-- /tab-content -->
+            </div> <!-- /col-sm-8 col-sm-offset-2 -->
+          </div> <!-- /.row -->
+        </div> <!-- modal-content -->
+      </div> <!-- modal-dialog -->
     </div>
 
   <!-- Product Section -->

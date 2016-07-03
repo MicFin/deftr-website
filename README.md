@@ -17,3 +17,7 @@ Website Design &amp; Development for Deftr, Inc.
 	<li>added "work for us" button</li>
 	<li>removed phone number from contact section</li>
 </ul>
+
+<b>7/3/2016</b>
+	<li>fixed padding issue with login button in nav</li>
+	<li>added sign-up/login modal</li>

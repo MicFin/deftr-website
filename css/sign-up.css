@@ -88,11 +88,20 @@
 #sign .tab-content .tab-pane .btn.btn-linkedin:hover {
   background-color: #5f86bc;
 }
+#sign .tab-content .tab-pane .btn.btn-email {
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+}
+#sign .tab-content .tab-pane .btn.btn-email:hover {
+  background-color: rgba(255,255,255,0.2);
+}
 #sign .tab-content .tab-pane .btn.btn-default {
   background-color: #313945;
   color: #eee;
   border-color: rgba(255, 255, 255, 0.2);
 }
+
+
 #sign .tab-content .tab-pane .btn.btn-default:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }

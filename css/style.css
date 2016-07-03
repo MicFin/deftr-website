@@ -145,7 +145,7 @@ ul, ol {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
-.navbar-custom .nav li a.login {
+.navbar-custom .nav li button.btn-login-nav {
   margin: 9px;
   padding: 5px 10px;
   border: 1px solid white;
@@ -153,7 +153,7 @@ ul, ol {
   width: 80px;
   text-align: center;
 }
-.navbar-custom .nav li a.login:hover {
+.navbar-custom .nav li button.btn-btn-login:hover {
 	background: white;
 	color: rgb(255, 132, 50);
 }
@@ -258,7 +258,13 @@ ul, ol {
 	border: 2px solid #337ab7;
 	color: white;
 }
-.btn-login {background: none;border: 2px solid white;color: white;box-sizing: border-box;-webkit-box-sizing: border-box;}
+.btn-login {
+	background: none;
+	border: 2px solid white;
+	color: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 .btn-signup:hover, .btn-login:hover {
 	border-color: white;
 }

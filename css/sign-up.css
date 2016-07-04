@@ -124,7 +124,7 @@
   border-color: transparent transparent rgba(255, 255, 255, 0.2) transparent;
   box-shadow: none;
   text-align: center;
-  color: #337ab7;
+  color: white;
 }
 #sign .tab-content .tab-pane form input.form-control:nth-last-child(1) {
   margin-bottom: 20px;

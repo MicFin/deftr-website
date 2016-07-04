@@ -22,6 +22,8 @@ Website Design &amp; Development for Deftr, Inc.
 	<li>fixed padding issue with login button in nav</li>
 	<li>added sign-up/login modal</li>
 	<li>added javascript to open modal to correct tab</li>
+	<li>hide out testimonial section</li>
+	<li>switched testimonial background image to team</li>
 
 
 

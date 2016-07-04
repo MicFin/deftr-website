@@ -81,6 +81,13 @@
 #sign .tab-content .tab-pane .btn.btn-facebook:hover {
   background-color: #466bb7;
 }
+#sign .tab-content .tab-pane .btn.btn-twitter {
+  background-color: #55acee;
+  color: white;
+}
+#sign .tab-content .tab-pane .btn.btn-twitter:hover {
+  background-color: #77c4ff;
+}
 #sign .tab-content .tab-pane .btn.btn-linkedin {
   background-color: #4875B4;
   color: white;

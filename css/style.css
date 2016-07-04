@@ -816,6 +816,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media (max-width: 768px) {
+	#intro .intro-body {
+		padding-bottom: 50px;
+	}
 	.price-table-wrapper .pricing-table {
 		width: 280px;
 		margin: 10px 5px;

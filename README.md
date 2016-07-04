@@ -21,3 +21,10 @@ Website Design &amp; Development for Deftr, Inc.
 <b>7/3/2016</b>
 	<li>fixed padding issue with login button in nav</li>
 	<li>added sign-up/login modal</li>
+	<li>added javascript to open modal to correct tab</li>
+
+
+
+
+<b>TO-DO</b>
+	<li>figure out why nav login button doesn't link to correct modal tab</li>

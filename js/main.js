@@ -103,11 +103,12 @@ function main() {
     });
 	
 
-  // jQuery Parallax
+  // Parallax
   function initParallax() {
     $('#intro').parallax("40%", 0.3, true);
     $('#pricing').parallax("100%", 0.3, true);	
-    $('#testimonials').parallax("85%", 0.1, true);
+    // $('#testimonials').parallax("85%", 0.1, true);
+    $('#team').parallax("100%", 0.3, true);
   };
   initParallax();
 
@@ -133,7 +134,7 @@ function main() {
     mobile: true, // trigger animations on mobile devices (default is true)
   });
   wow.init();
-  
+
 }());
 
 

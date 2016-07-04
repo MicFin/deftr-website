@@ -119,7 +119,13 @@ function main() {
     default_height: 444
 	});	
 
-
+  // Sign Up/Login Modal - Correct Tab Selection
+  $(function() {
+    $('.btn-login').on('click', function() {
+      var tab = $(this).index();
+      $('#sign a:eq(' + tab + ')').tab('show');
+    });
+  });
 
   // Wow
   var wow = new WOW ({

@@ -1,3 +1,4 @@
+/* ----- GLOBAL STYLES ----- */
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -20,10 +21,6 @@ h2 {
 h3 {
 	font-size: 16px;
 	font-weight: 700;
-}
-.cta-row h3 {
-	margin-bottom: 25px;
-	font-size: 20px;
 }
 h5 {
 	text-transform: uppercase;
@@ -88,7 +85,62 @@ ul, ol {
 .btn-default:active, .btn-default:focus {
 	border-color: white;
 }
-/* Navigation */
+.btn-default {
+	color: #ccc;
+	background: #337ab7;
+	border: 0;
+	padding: 12px 24px;
+	margin: 0 8px;
+	font-size: 18px;
+	transition: all 0.5s;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #337ab7;
+	background-color: #ffffff;
+}
+.btn-signup {
+	border: 2px solid #337ab7;
+	color: white;
+}
+.btn-login {
+	background: none;
+	border: 2px solid white;
+	color: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.btn-signup:hover, .btn-login:hover {
+	border-color: white;
+}
+.section-title.center {
+	padding: 30px 0;
+}
+.section-title h2, .section-title.center h2 {
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.section-title.center hr {
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: rgb(255, 166, 107);
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 0;
+}
+.section-title.center hr:after {
+	content: "";
+	height: 4px;
+	width: 50px;
+	display: inline-block;
+	border-radius: 2px;
+	position: relative;
+	top: 2px;
+	background: rgba(255, 166, 107, 0.4);
+}
+
+/* ----- NAVIGATION ----- */
 .navbar-custom {
 	padding: 0;
 	border-bottom: 0;
@@ -112,7 +164,6 @@ ul, ol {
 	padding: 0 4px;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-	/* background-color: rgb(51, 122, 183); */
 	color: rgb(255, 166, 107);
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -159,7 +210,8 @@ ul, ol {
 	background: white;
 	color: rgb(255, 132, 50);
 }
-/* Home Section */
+
+/* ----- INTRO SECTION ----- */
 #intro {
 	display: table;
 	width: 100%;
@@ -240,65 +292,12 @@ ul, ol {
 .cta-row {
 	padding-top: 25px;
 }
-
-
-
-.btn-default {
-	color: #ccc;
-	background: #337ab7;
-	border: 0;
-	padding: 12px 24px;
-	margin: 0 8px;
-	font-size: 18px;
-	transition: all 0.5s;
-}
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #337ab7;
-	background-color: #ffffff;
-}
-.btn-signup {
-	border: 2px solid #337ab7;
-	color: white;
-}
-.btn-login {
-	background: none;
-	border: 2px solid white;
-	color: white;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-}
-.btn-signup:hover, .btn-login:hover {
-	border-color: white;
-}
-.section-title.center {
-	padding: 30px 0;
-}
-.section-title h2, .section-title.center h2 {
-	font-weight: 600;
-	margin-bottom: 30px;
-}
-.section-title.center hr {
-	height: 4px;
-	width: 70px;
-	text-align: center;
-	position: relative;
-	background: rgb(255, 166, 107);
-	margin: 0 auto;
-	margin-bottom: 30px;
-	border: 0;
-}
-.section-title.center hr:after {
-	content: "";
-	height: 4px;
-	width: 50px;
-	display: inline-block;
-	border-radius: 2px;
-	position: relative;
-	top: 2px;
-	background: rgba(255, 166, 107, 0.4);
+.cta-row h3 {
+	margin-bottom: 25px;
+	font-size: 20px;
 }
 
-/* Services Section */
+/* ----- SERVICES SECTION ----- */
 #services {
 	padding: 100px 0;
 	border-top: 5px solid rgb(255, 166, 107);
@@ -340,7 +339,7 @@ ul, ol {
 	border-color: #337ab7;
 }
 
-/* Pricing Section */
+/* ----- PRICING SECTION ----- */
 #pricing {
 	padding: 100px 0;
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/about-bg.jpg);
@@ -462,7 +461,7 @@ ul, ol {
   padding-right: 15px;
 }
 
-/* About Section */
+/* ----- ABOUT SECTION ----- */
 #about {
   padding: 75px 0;
   color: #444444;
@@ -471,10 +470,7 @@ ul, ol {
 	margin-left: 10px;
 	margin-top: 90px;
 }
-#about .about-img {
-	/* margin-bottom: 30px; */
-}
-#about H4 {
+#about h4 {
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -508,14 +504,13 @@ ul, ol {
 }
 
 
-/* Team Section */
+/* ----- TEAM SECTION ----- */
 #team {
 	padding: 100px 0;
 	background:
 		linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
 		url(../img/testimonials-bg.jpg);
 	background-attachment: fixed;
-	/*background-color: #666666;*/
 	color: white;
 }
 img.img-thumbnail.team-img {
@@ -540,7 +535,7 @@ img.img-thumbnail.team-img.img-small {
 }
 
 
-/* Testimonials Section */
+/* ----- TESTIMONIALS SECTION ----- */
 #testimonials {
 	background: url(../img/testimonials-bg.jpg);
 	background-attachment: fixed;
@@ -611,12 +606,11 @@ img.img-thumbnail.team-img.img-small {
 }
 
 
-/* Contact Section */
+/* CONTACT SECTION */
 #contact {
 	padding: 80px 0 40px 0;
 	background: #e6e6e6;
 }
-
 #contact .contact-item {
 	padding: 10px;
 	margin: 10px;
@@ -625,17 +619,12 @@ img.img-thumbnail.team-img.img-small {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	cursor: pointer;
-	/* display: table-cell; */
-	/* vertical-align: middle; */
 }
 #contact .contact-item:hover {
 	background-color: #fbfbfb;
 	border: 2px solid #337ab7;
 	font-weight: 700;
 	cursor: pointer;
-}
-#contact .contact-box {
-	/* display: table; */
 }
 #contact h3 {
 	font-size: 20px;
@@ -730,7 +719,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: rgb(255, 166, 107);
 	background: #337ab7;
 }
-/* Footer Section*/
+
+/* ----- FOOTER ----- */
 #footer {
 	background: #337ab7;
 	color: #f9f9f9;
@@ -759,7 +749,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #F4D03F;
 }
 
-
+/* ----- MEDIA QUERIES ----- */
 @media(min-width:768px) {
 	.navbar-custom .nav li a.login {
     margin: 9px;

@@ -74,6 +74,7 @@ function main() {
     $('#pricing').parallax("100%", 0.3, true);	
     // $('#testimonials').parallax("85%", 0.1, true);
     $('#team').parallax("100%", 0.3, true);
+    $('#hiring-image').parallax("50%", 0.3, true)
   };
   initParallax();
 

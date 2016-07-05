@@ -40,6 +40,8 @@ Website Design &amp; Development for Deftr, Inc.
 <b>7/5/2016</b>
 <ul>
 	<li>added hiring page</li>
+	<li>added app page</li>
+	<li>added UserApp integration for user management</li>
 </ul>
 
 

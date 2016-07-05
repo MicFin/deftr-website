@@ -25,6 +25,13 @@ Website Design &amp; Development for Deftr, Inc.
 	<li>hide out testimonial section</li>
 	<li>switched testimonial background image to team</li>
 
+<b>7/4/2016</b>
+	<li>fix intro padding issue on mobile</li>
+	<li>fix border issue on procing table</li>
+	<li>adjust nav to show earlier on scroll</li>
+	<li>addded php redirect file</li>
+	<li>temporarily removed dead links</li>
+	<li>refactored index.html, style.css and main.js</li>
 
 
 

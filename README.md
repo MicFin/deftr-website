@@ -8,7 +8,7 @@ Website Design &amp; Development for Deftr, Inc.
 
 <b>7/2/2016</b>
 <ul>
-	<li>changed text case deftr to deftr</li>
+	<li>changed text case DEFTR to deftr</li>
 	<li>added deftr logos</li>
 	<li>rounded play button for video</li>
 	<li>switched product and about us sections</li>

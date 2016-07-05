@@ -36,7 +36,7 @@ Website Design &amp; Development for Deftr, Inc.
 		<li>temporarily removed dead links</li>
 		<li>refactored index.html, style.css and main.js</li>
 	</ul>
-	
+
 <b>7/5/2016</b>
 <ul>
 	<li>added hiring page</li>
@@ -44,4 +44,6 @@ Website Design &amp; Development for Deftr, Inc.
 
 
 <b>TO-DO</b>
-	<li>figure out why nav login button doesn't link to correct modal tab</li>
+	<ul>
+		<li>figure out why nav login button doesn't link to correct modal tab</li>
+	</ul>

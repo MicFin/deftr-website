@@ -47,5 +47,9 @@ Website Design &amp; Development for Deftr, Inc.
 
 <b>TO-DO</b>
 	<ul>
-		<li>figure out why nav login button doesn't link to correct modal tab</li>
+		<li>nav login button doesn't link to correct modal tab</li>
+		<li>UserApp - multiple users being created on sign-up</li>
+		<li>UserApp - multiple Alert dialogues if error</li>
+		<li>UserApp - configure Stripe integration</li>
+		<li>UserApp - configure Social integration</li>
 	</ul>
